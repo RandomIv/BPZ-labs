@@ -1,0 +1,18 @@
+{
+  "name": "lab1-auth-examples",
+  "private": true,
+  "scripts": {
+    "basic": "cd basic_auth && node index.js",
+    "forms": "cd forms_auth && node index.js",
+    "token": "cd token_auth && node index.js",
+    "jwt": "cd token_auth_jwt && node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "on-finished": "^2.4.1",
+    "uuid": "^9.0.1"
+  }
+}
