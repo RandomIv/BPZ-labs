@@ -1,0 +1,7 @@
+node_modules/
+.env
+.tokens/
+.idea/
+sessions.json
+logins.log
+received/
