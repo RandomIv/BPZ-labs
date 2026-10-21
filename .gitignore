@@ -3,5 +3,4 @@ node_modules/
 .tokens/
 .idea/
 sessions.json
-logins.log
 received/

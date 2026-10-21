@@ -1,0 +1,12 @@
+{
+  "name": "lab2-oauth2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "token": "node --env-file-if-exists=.env scripts/token.js",
+    "create-user": "node --env-file-if-exists=.env scripts/create-user.js",
+    "create-roles": "node --env-file-if-exists=.env scripts/create-roles.js",
+    "set-roles": "node --env-file-if-exists=.env scripts/set-roles.js",
+    "login": "node --env-file-if-exists=.env scripts/login.js"
+  }
+}
