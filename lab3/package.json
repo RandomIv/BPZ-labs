@@ -1,0 +1,10 @@
+{
+  "name": "lab3-oauth2-user-tokens",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "user-token": "node --env-file-if-exists=.env scripts/user-token.js",
+    "refresh": "node --env-file-if-exists=.env scripts/refresh.js",
+    "change-password": "node --env-file-if-exists=.env scripts/change-password.js"
+  }
+}
