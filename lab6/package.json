@@ -1,0 +1,10 @@
+{
+  "name": "lab6-sso-login",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file-if-exists=.env index.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
