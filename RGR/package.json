@@ -1,0 +1,9 @@
+{
+  "name": "rgr-tls-handshake",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js"
+  }
+}
